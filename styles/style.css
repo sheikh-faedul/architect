@@ -38,7 +38,7 @@ button{
     height: 30px;
 }
 .banner-pic{
-    width: 700px;
+    width: 800px;
 }
 .banner-pic img{
     width: 100%;
@@ -46,3 +46,31 @@ button{
 /* -----------
 banner style end
 ----------------- */
+/* ----feature part */
+.feature{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 40px;
+}
+.feature-pic{
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:10px;
+    
+}
+.feature-pic img{
+    width: 100%;
+}
+span{
+    color: #FF900E;
+}
+.feature-title{
+        width: 350px;
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+}
+/* -feature--- end
+------------------- */
