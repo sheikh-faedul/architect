@@ -130,5 +130,24 @@ span{
 ------------------------ */
 /* sponsore part start
 ----------------------- */
-
+.sponsore-title{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sponsore-com{
+    margin: 2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* sponsore part end
+----------------------- */
+/* footer part start */
+footer{
+    background-color:  rgba(255, 144, 14, 0.1);
+    display: flex;
+    justify-content: center;
+}
  
