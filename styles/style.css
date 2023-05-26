@@ -74,3 +74,29 @@ span{
 }
 /* -feature--- end
 ------------------- */
+.feature-descripetion{
+    display: flex;
+    margin-top: 30px;
+
+}
+.our-work{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    
+}
+.about-work{
+     margin: 20px;
+}
+.descripetion-pic{
+    width: 800px;
+    height: 700px;
+    margin-top: 20px;
+}
+.descripetion-pic img{
+    width: 100%;
+}
+.explore-btn{
+    display: flex;
+    justify-content: center;
+}
