@@ -74,29 +74,61 @@ span{
 }
 /* -feature--- end
 ------------------- */
+/* more about feature */
 .feature-descripetion{
     display: flex;
-    margin-top: 30px;
+    margin: 30px;
 
 }
+ 
 .our-work{
     display: flex;
     flex-direction: column;
     margin-left: 50px;
-    
+    height: 800px;
+    width: 600px;
+}
+.our-work div{
+    height: 100%;
 }
 .about-work{
      margin: 20px;
 }
 .descripetion-pic{
-    width: 800px;
-    height: 700px;
+    width: 600px;
+    height: 800px;
     margin-top: 20px;
 }
 .descripetion-pic img{
     width: 100%;
+    height: 100%;
 }
 .explore-btn{
     display: flex;
     justify-content: center;
 }
+/* more about feature end-
+-------------------------- */
+/* facts part start */
+.fact{
+    margin: 5em;
+}
+.award{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-facts{
+    width: 120px;
+    height: 120px;
+    border: 1px solid #FF900E ; 
+    padding: 2em;
+}
+.about-facts h2{
+   margin: 0px;
+}
+/* --------facts part end
+------------------------ */
+/* sponsore part start
+----------------------- */
+
+ 
